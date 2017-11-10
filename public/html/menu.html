@@ -1,18 +1,14 @@
-<md-content>
   <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
     <div class="container">
       <center>
 	      <h1 class="md-display-3">MENU</h1>
-	      <md-card>
 	        <h3>Bienvenido {{username}}</h3>
 	        <h3>Su saldo actual es: {{credit}}</h3>
 	        <h3></h3>
 	        <form name="Form">
-	        	<md-button ng-click="NewPass()" class="md-raised md-primary">NUEVO PASE</md-button>
+	        	<md-button ng-click="newPass()" class="md-raised md-primary">NUEVO PASE</md-button>
 	        </form>
-	      </md-card>
       </center>
       <md-button href="#login" class="md-raised md-alert">Salir</md-button>
     </div>
   </section>
-</md-content>
