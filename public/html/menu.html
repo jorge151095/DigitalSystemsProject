@@ -1,11 +1,18 @@
 <md-content>
   <section layout="row" layout-sm="column" layout-align="center center" layout-wrap="">
     <div class="container">
-      <h1 class="md-display-3">MENU</h1>
-      <md-card>
-        <!--<img ng-src="./assets/lifegame.gif" class="md-card-image" alt="Washed Out"/>
-        <md-button type="button" ng-click="showconf()" class="md-raised md-primary">Jugar</md-button>-->
-      </md-card>
+      <center>
+	      <h1 class="md-display-3">MENU</h1>
+	      <md-card>
+	        <h3>Bienvenido {{username}}</h3>
+	        <h3>Su saldo actual es: {{credit}}</h3>
+	        <h3></h3>
+	        <form name="Form">
+	        	<md-button ng-click="NewPass()" class="md-raised md-primary">NUEVO PASE</md-button>
+	        </form>
+	      </md-card>
+      </center>
+      <md-button href="#login" class="md-raised md-alert">Salir</md-button>
     </div>
   </section>
 </md-content>
